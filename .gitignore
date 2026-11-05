@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+*.o
+*.out
+
+# Images generated during tests (keep directory structure)
+images/output/*
+!images/output/.gitkeep
+images/input/test_*
+
+# Benchmark results
+*.csv
+
+# System / editor
+.DS_Store
+*.swp
+*~
